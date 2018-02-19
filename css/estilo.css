@@ -1,0 +1,31 @@
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; /* Set the navbar to fixed position */
+    width: 99%; /* Full width */
+    float: right;
+    z-index: 100;
+    padding: 20px 0;
+}
+
+@media(max-width:1900px) {
+    .linhamenu{
+		margin-bottom: 2em;
+    }
+}
+
+@media(max-width:540px) {
+    
+    .navbar {
+    	margin-top: 50px; 
+    	margin-bottom: 0;    	
+    	bottom: 0;
+        background-color: black;
+        position: fixed;
+    }
+
+    .linhamenu{
+		margin-bottom: 1em;
+    }
+}
